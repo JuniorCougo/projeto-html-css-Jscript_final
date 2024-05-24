@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("fundo-inicial.webp");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+header {
+    width: 100%;
+    background-color: #007bff;
+    text-align: center;
+    background-image: url("cabeçalho-002.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+header img {
+    width: 100%;
+}
+
+header .btn-home {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #021629;
+    background-position: center;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+header .btn-home:hover {
+    background-color: #007bff;
+    color: #fff;
+
+}
+
+#content {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdfcfe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#photo-upload {
+    position: relative;
+}
+
+#photo-upload img {
+    max-width: 100%;
+    margin-top: 10px;
+    display: none;
+}

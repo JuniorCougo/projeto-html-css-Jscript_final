@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="cadastro/cadastro.css">
+</head>
+<body>
+        <button onclick="window.location.href='projeto.html'">Home</button>
+    <h1>Cadastro de Usuário</h1>
+    <div id="content">
+        <form id="cadastro-form">
+            <div>
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirm-password">Confirmar Senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div id="photo-upload">
+                <label for="photo">Foto de Perfil:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+                <img id="preview-photo" src="#" alt="Preview da Foto">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

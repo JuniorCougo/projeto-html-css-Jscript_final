@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Reprodução</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+     
+  </head>
+
+<body>
+    <div id="login" class="top-right">
+        <input type="text" id="username" placeholder="Usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button class="" onclick="login()">Login</button>
+        <a href="cadastro.html" class="cadastro-link"><button class="cadastro-btn">Cadastro</button></a>
+    </div>
+  <div class="carousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img src="Carrosel/Banner-04Fev2011.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Carrosel/AvatarTheWayofWater_banner.jpg"d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Carrosel/555.png" class="d-block w-100" alt="...">
+    </div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div>
+        
+ <nav class="navbar navbar-expand-lg navbar-light cor1">
+   <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+       <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Home</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="#">Filmes</a>
+       </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Opções</a>
+           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+         <li><a class="dropdown-item" href="#acao">Filmes</a></li>
+             <li><a class="dropdown-item" href="#serie">Serie</a></li>
+             <li><hr class="dropdown-divider"></li>
+             <li><a class="dropdown-item" href="#anime">Animes</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Plano</a>
+          </li>
+          </ul>
+          <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+  </div>
+  </div>
+  </div>
+<section id="content">
+
+        <div class="categoria" id="acao">
+          <div class="car">  <h2 class="categoria-titulo">Filmes<span class="ver-mais">+ Ver mais</span></h2></div>
+            <div class="video-gallery">
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/5.mp4" type="video/mp4">
+                  </video>
+                  <p><b>Projeto Gemini</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/4444.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Top Gun</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/Bad Boys.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Bad Boys</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/Deadpool.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Deadpool</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/Planeta dos macacos.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Planeta dos Macacos</b></p>
+              </div>
+            <div class="imagens-container ">
+                <div class="imagem-container">
+                    <img src="Catalago/images.jpeg" alt="Filme 1">
+                    <div class="container"> <p><b>Os Suburbano</b></p></div>
+                </div>
+                <div class="imagem-container ">
+                    <img src="Catalago/harry-potter-cartaz-pedra-filoso.webp" alt="Filme 2">
+                    <div class="container"> <p><b>harry-potter</b></p></div>
+                </div>
+                <div class="imagem-container">
+                    <img src="Catalago/Rio.webp" alt="Filme 2">
+                    <div class="container"> <p><b>Rio 3</b></p></div>
+                </div>
+                <div class="imagem-container">
+                    <img src="Catalago/Panda.jpg" alt="Filme 2">
+                    <div class="container"> <p><b>Kung Fu Panda</b></p></div>
+                </div>
+                <div class="imagem-container">
+                    <img src="Catalago/smile.jpg" alt="Filme 2">
+                    <div class="container"> <p><b>A Semente do Mal</b></p></div>
+                </div>
+                <div class="imagem-container">
+                  <img src="Catalago/filme_11106 (1).jpg" alt="Filme 2">
+                  <div class="container"> <p><b>Garfield</b></p></div>
+              </div>
+              <div class="imagem-container">
+                <img src="Catalago/download.jpg" alt="Filme 2">
+                <div class="container"> <p><b>Planeta dos Macacos</b></p></div>
+            </div>
+            <div class="imagem-container">
+              <img src="Catalago/kk.webp" alt="Filme 2">
+              <div class="container"> <p><b>Zona de Risco</b></p></div>
+          </div>
+                <!-- Adicione mais imagens aqui -->
+            </div>
+        </div>
+
+        <div class="categoria" id="serie">
+            <div class="car"> <h2 class="categoria-titulo">Séries<span class="ver-mais">+ Ver mais</span></h2></div>
+            <div class="video-gallery">
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/Outer Banks.mp4" type="video/mp4">
+                  </video>
+                  <p><b>Outer Banks</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/Lupin.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Lupin</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/Game of Thrones.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Game of Thrones</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/Supernatural.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Supernatural</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/THE 100  .mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>THE 100</b></p>
+              </div>
+            <div class="imagens-container">
+                <div class="imagem-container">
+                    <img src="Catalago/The_100_Temporada_1_Poster (1).jpg" alt="Série 1">   <!-- é necessário realizar a mudança e colocar um caminho para inserir uma imagem ou video --> 
+                    <div class="container"> <p><b>THE 100</b></p></div>
+                </div>
+                <div class="imagem-container">
+                    <img src="Catalago/1_whatsapp_image_2023_01_03_at_1.webp" alt="Série 2">
+                    <div class="container"> <p><b>Outer Banks</b></p></div>
+                </div>
+                <div class="imagem-container">
+                  <img src="Catalago/d4d46ceaa893b78b97acedcdb48f720f (1).webp" alt="Série 2">
+                 <div class="container"> <p><b>Game of Thrones</b></p></div>
+                <!-- Adicione mais imagens aqui -->
+            </div>
+            <div class="imagem-container">
+              <button></button>
+              <img src="Catalago/supernatural.jpg" alt="Série 2">
+              <div class="container"> <p><b>Supernatural</b></p></div>
+            </div>
+            <div class="imagem-container">
+              <img src="Catalago/LUpim.jpg" alt="Série 1">   <!-- é necessário realizar a mudança e colocar um caminho para inserir uma imagem ou video --> 
+              <div class="container"> <p><b>Lupin</b></p></div>
+              </div>
+              <div class="imagem-container">
+                <img src="Catalago/house_md_ver10 (1).jpg" alt="Série 1">   <!-- é necessário realizar a mudança e colocar um caminho para inserir uma imagem ou video --> 
+                <div class="container"> <p><b>House</b></p></div>
+                </div>
+                <div class="imagem-container">
+                  <img src="Catalago/VOCE.jpg" alt="Série 1">   <!-- é necessário realizar a mudança e colocar um caminho para inserir uma imagem ou video --> 
+                  <div class="container"> <p><b>You</b></p></div>
+                  </div>
+        </div>
+
+        <div class="categoria" id="anime">
+            <div class="car">  <h2 class="categoria-titulo">Animes<span class="ver-mais">+ Ver mais</span></h2></div>
+            <div class="video-gallery">
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/Naruto.mp4" type="video/mp4">
+                  </video>
+                  <p><b>Naruto</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/Yu-Go-Oh.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Yu-Gi-Oh</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="Video/Dragon Ball.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Dragon Ball</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/Super onze.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Super Onze</b></p>
+              </div>
+              <div class="video-container">
+                  <video controls>
+                      <source src="video/Chaotic.mp4" type="video/mp4">
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                  <p><b>Chaotic</b></p>
+              </div>
+            <div class="imagens-container">
+                <div class="imagem-container">
+                    <img src="Catalago/naruto.avif" alt="Anime 1">
+                    <div class="container"> <p><b>Naruto</b></p></div>
+                </div>
+                <div class="imagem-container">
+                    <img src="Catalago/Dinosauro Rei.jpg" alt="Anime 2">
+                    <div class="container"> <p><b>Dinosauro Rei</b></p></div>
+                </div>
+                <div class="imagem-container">
+                  <img src="Catalago/Didimin.jpg" alt="Anime 2">
+                  <div class="container"> <p><b>Digimon</b></p></div>
+              </div>
+              <div class="imagem-container">
+                <img src="Catalago/Dragon Ball Z.avif" alt="Anime 2">
+                <div class="container"> <p><b>Dragon Ball Z</b></p></div>
+            </div>
+            <div class="imagem-container">
+              <img src="Catalago/Yu-Gi-Oh.jpg" alt="Anime 2">
+              <div class="container"> <p><b>Yu-Gi-Oh!</b></p></div>
+           </div>
+           <div class="imagem-container">
+            <img src="Catalago/Super onze.jpg" alt="Anime 2">
+            <div class="container"> <p><b>Super Onze</b></p></div>
+           </div>
+           <div class="imagem-container">
+            <img src="Catalago/Chaotic.jpg" alt="Anime 2">
+            <div class="container"> <p><b>Chaotic</b></p></div>
+           </div>    
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer-button">
+            <a href="politica_privacidade.html">Política de Privacidade</a>
+            <a href="termos_uso.html">Termos de Uso</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </footer>
+    <div class="social-media">
+        <img src="imagens-pagina/social.jpg">
+    </div>
+</body>
+</html>
